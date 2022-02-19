@@ -1,5 +1,11 @@
-let name = 'John';
-let age = 30;
-let isApproved = false;
-let firstName = undefined;
-let selectColor = null;  
+//object
+let person = {
+    name: 'John',
+    age: 30
+};
+
+person.name = 'Mosh';
+
+let selection = 'name';
+person[selection] = 'Mary';
+console.log(person.name);
